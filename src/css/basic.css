@@ -1,0 +1,94 @@
+/* 基础样式 */
+html,body,header,section,aside,footer,p,h1,h2,h3,h4,h5,h6,ul,li,ol,li {
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-family: "微软雅黑",Arial,Microsoft,"Microsoft YaHei";
+    background: #fff;
+    color: #000000;
+    overflow: hidden;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+img {
+    display: block;
+}
+ul,li,ol,li {
+    list-style: none;
+}
+
+/* 包裹器 */
+div.wrap {
+    width: 100%;
+    height: 100%;
+}
+
+/* 侧边栏导航 */
+nav.aside-nav {
+    width: 80px;
+    height: 100%;
+    position: fixed;
+    /*float: left;*/
+    background: rgba(255,255,255,0.9) none repeat scroll 0 0;
+    box-shadow: 5px 0 13px rgba(0,0,0,0.15);
+    z-index: 10;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+/* 主体内容 */
+div.content {
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    /*float: left;*/
+}
+
+/* section */
+section {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+}
+
+section.active {
+    transition: all 0.5s;
+    z-index: 2;
+    opacity: 1;
+}
+
+/* 固定在屏幕下方中间位置的向下箭头 */
+.down {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    animation: down 0.8s ease alternate infinite;
+    cursor: pointer;
+}
+@keyframes down {
+    0% { bottom: 50px; }
+    100%{ bottom: 20px; }
+}
+
+/* 遮罩层 */
+div.mask {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #ffffff;
+    opacity: 1;
+    top: 100%;
+    z-index: 9;
+}
