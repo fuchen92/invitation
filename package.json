@@ -1,0 +1,32 @@
+{
+  "name": "invite",
+  "version": "1.0.0",
+  "description": "一个简单的招聘网站",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuchen92/invite.git"
+  },
+  "keywords": [
+    "test",
+    "invite"
+  ],
+  "author": "浮尘",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fuchen92/invite/issues"
+  },
+  "homepage": "https://github.com/fuchen92/invite#readme",
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0"
+  }
+}
