@@ -1,0 +1,11 @@
+#My configurations:
+.git
+node_modules
+.project
+db.ini
+.tags1
+
+#Windows:
+Thumbs.db
+enthumbs.db
+Desktop.ini
