@@ -1,5 +1,5 @@
 {
-  "name": "invite",
+  "name": "invitation",
   "version": "1.0.0",
   "description": "一个简单的招聘网站",
   "main": "gulpfile.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fuchen92/invite.git"
+    "url": "git+https://github.com/fuchen92/invitation.git"
   },
   "keywords": [
     "test",
@@ -17,9 +17,9 @@
   "author": "浮尘",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fuchen92/invite/issues"
+    "url": "https://github.com/fuchen92/invitation/issues"
   },
-  "homepage": "https://github.com/fuchen92/invite#readme",
+  "homepage": "https://github.com/fuchen92/invitation#readme",
   "devDependencies": {
     "browser-sync": "^2.14.0",
     "gulp": "^3.9.1",
